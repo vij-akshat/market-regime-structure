@@ -13,11 +13,11 @@ The model assumes:
 - States evolve via a Markov transition matrix
 Formally:
 $$
-P(S_{t} = j | S_{t-1} = i) = P_{ij}
-$$
+P(S_{t} = j | S_{t-1} = i) = P_{ij}$$
+
 Returns follow:
 $$
-r_{t} \sim \mathcal{N}(\mu_{S_{t}}, \sigma^{2}_{S_{t}})
+r_{t} \sim \mathcal{N}(\mu_{S_{t}},\sigma^{2}_{S_{t}})
 $$
 
 The notebook:
