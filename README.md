@@ -17,10 +17,9 @@ Formally:
 $$
 P(S_{t} = j | S_{t-1} = i) = P_{ij}
 $$
-
 Returns follow:
 $$
-r_{t} \sim \mathcal{N}(\mu_{S_{t}},\sigma^{2}_{S_{t}})$$
+r_{t} \sim $$
 
 The notebook:
 - Fits a 2-state Gaussian HMM
@@ -55,6 +54,7 @@ Understanding latent states is critical for:
 - Macro allocation frameworks
 ---
 ## Requirements
+
 - Python 3.x
 - NumPy
 - Matplotlib
